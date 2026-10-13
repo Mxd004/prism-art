@@ -27,9 +27,9 @@ st.markdown("""
 st.title("🖼️ Prism : Galerie d'Art")
 
 # --- CHEMINS DES FICHIERS ---
-IMAGE_DIR = r"F:\Prism_Art\Ref_Images"
-CACHE_FILE = r"F:\Prism_Art\palettes.json"
-CATALOGUE_PATH = r"F:\Prism_Art\catalogue.csv"
+IMAGE_DIR = "Ref_Images"
+CACHE_FILE = "palettes.json"
+CATALOGUE_PATH = "catalogue.csv"
 
 # --- MÉMOIRE DES COULEURS (JSON) ---
 def load_cache():
